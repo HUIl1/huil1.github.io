@@ -1,4 +1,7 @@
+---
+permalink: /robots.txt
+---
 User-agent: *
 Disallow:
 
-Sitemap: https://huil1.github.io/sitemap.xml
+Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
